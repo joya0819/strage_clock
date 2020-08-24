@@ -1,0 +1,100 @@
+<svg viewport-fill="black">
+  
+  <!--時間、分の円の形と挙動-->
+  <g id="mins1" pointer-events="visible" transform="translate(50%,50%)">
+    <circle cx="$" cy="-128" r="20" fill="aqua" />
+  </g>
+  <g id="hours1" pointer-events="visible" transform="translate(50%,50%)">
+    <circle cx="$" cy="-128" r="15" fill="darkorange" />
+  </g>
+  <g id="mins2" pointer-events="visible" transform="translate(50%,50%)">
+    <circle cx="$" cy="-75" r="20" fill="royalblue" />
+  </g>
+  <g id="hours2" pointer-events="visible" transform="translate(50%,50%)">
+    <circle cx="$" cy="-75" r="15" fill="orangered" />
+  </g>
+  
+  <!--外側の数字-->
+  <text x="50%" y="32"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">0</text>
+  <text x="225" y="56"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">1</text>
+  <text x="272" y="119"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">2</text>
+  <text x="272" y="200"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">3</text>
+  <text x="224" y="264"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">4</text>
+  <text x="50%" y="288"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">5</text>
+  <text x="74" y="264"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">6</text>
+  <text x="29" y="200"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">7</text>
+  <text x="28" y="119"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">8</text>
+  <text x="74" y="56"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">9</text>
+  
+  <!--内側の数字-->
+  <text x="50%" y="85"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">0</text>
+  <text x="215" y="122"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">1</text>
+  <text x="215" y="196"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">2</text>
+  <text x="50%" y="235"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">3</text>
+  <text x="83" y="196"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">4</text>
+  <text x="85" y="122"
+        font-family="System-Regular" fill="black"
+        font-size="30" font-weight="bold"
+        text-anchor="middle">5</text> 
+  
+  <!--中央の円-->
+  <circle cx="50%-30" cy="50%" r="10" fill="orangered" />
+  <circle cx="50%-10" cy="50%" r="10" fill="darkorange" />
+  <circle cx="50%+10" cy="50%" r="10" fill="royalblue" />
+  <circle cx="50%+30" cy="50%" r="10" fill="aqua" />
+  
+  <!--時計の名前-->
+  <text x="50%" y="50%-20"
+        font-family="System-Regular" fill="springgreen"
+        font-size="20" font-weight="light"
+        text-anchor="middle">STRANGE</text>
+  <text x="50%" y="50%+40"
+        font-family="System-Regular" fill="springgreen"
+        font-size="20" font-weight="light"
+        text-anchor="middle">CLOCK</text>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "fitbit": {
+    "appUUID": "96ae7500-1f26-4e8d-9aec-9b975875e166",
+    "appType": "app",
+    "appDisplayName": "STRANGE CLOCK",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#4caf50",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "STRANGE CLOCK"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}
